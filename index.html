@@ -22,5 +22,8 @@
 		return xmlhttp.response;
 	}
 
-	console.log(httpGet("https://setup.roblox.com/versionQTStudio"))
+	let data = httpGet("https://setup.roblox.com/versionQTStudio")
+
+	console.log("We've recieved the data!")
+	console.log(data, typeof(data))
 </script>
